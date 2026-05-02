@@ -1,0 +1,15 @@
+<!-- src/app/components/footer/footer.component.html -->
+
+<footer class="footer">
+
+  <span class="footer-logo">The Image Project</span>
+
+  <ul class="footer-links">
+    <li *ngFor="let link of footerLinks">
+      <a (click)="navigate(link.sectionId)">{{ link.label }}</a>
+    </li>
+  </ul>
+
+  <span class="footer-copy">© {{ currentYear }} The Image Project</span>
+
+</footer>

@@ -1,0 +1,26 @@
+/* src/app/components/top-nav/top-nav.component.css */
+/* 
+  All shared nav classes (.navbar, .nav-logo, .nav-links, etc.)
+  live in global styles.css.
+  Only component-specific overrides go here.
+*/
+
+/* Hamburger active state lines */
+.hamburger span.open:nth-child(1) {
+  transform:        rotate(45deg) translate(4px, 4px);
+}
+.hamburger span.open:nth-child(2) {
+  opacity:          0;
+  transform:        scaleX(0);
+}
+.hamburger span.open:nth-child(3) {
+  transform:        rotate(-45deg) translate(4px, -4px);
+}
+
+/* Mobile menu CTA item — accent styled */
+.mobile-menu__cta {
+  color:       var(--accent) !important;
+  font-weight: 400 !important;
+  border-bottom: none !important;
+  margin-top:  8px;
+}

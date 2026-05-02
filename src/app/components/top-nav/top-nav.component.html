@@ -1,0 +1,37 @@
+<!-- src/app/components/top-nav/top-nav.component.html -->
+
+<nav class="navbar" [class.scrolled]="isScrolled">
+
+  <!-- Brand Logo -->
+  <span class="nav-logo" (click)="scrollToTop()">
+    The Image Project
+  </span>
+
+  <!-- Desktop Navigation Links -->
+  <ul class="nav-links">
+    <li *ngFor="let link of navLinks">
+      <a (click)="navigate(link.sectionId)">{{ link.label }}</a>
+    </li>
+  </ul>
+
+  <!-- Desktop CTA -->
+  <span class="nav-cta" (click)="navigate('cta')">Begin</span>
+
+  <!-- Hamburger (Mobile) -->
+  <button class="hamburger" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+    <span [class.open]="isMobileOpen"></span>
+    <span [class.open]="isMobileOpen"></span>
+    <span [class.open]="isMobileOpen"></span>
+  </button>
+
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<ul class="mobile-menu" [class.open]="isMobileOpen">
+  <li *ngFor="let link of navLinks">
+    <a (click)="navigate(link.sectionId)">{{ link.label }}</a>
+  </li>
+  <li>
+    <a class="mobile-menu__cta" (click)="navigate('cta')">Begin Your Journey →</a>
+  </li>
+</ul>

@@ -1,0 +1,11 @@
+/* src/app/components/content/content.component.css */
+/*
+  All section class styles (.hero-section, .about-brand-section, etc.)
+  are defined globally in styles.css.
+  
+  Component-level encapsulation is disabled via ViewEncapsulation.None
+  OR all styles remain in the global sheet — Angular's default
+  encapsulation won't affect globally defined class names.
+  
+  Add any truly isolated overrides here if needed in future.
+*/
