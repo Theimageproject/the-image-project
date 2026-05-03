@@ -1168,7 +1168,7 @@ ul {
     padding: 52px var(--section-px-sm) 60px;
     z-index: 2;
     backdrop-filter: blur(2.5px);
-    background-color: #fff7;
+    background-color: #efdbd469;
   }
 
   .hero-right {
