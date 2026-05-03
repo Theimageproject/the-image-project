@@ -8,33 +8,33 @@ import {
 import { ScrollService } from '../../services/scroll.service';
 
 interface NavLink {
-  label:     string;
+  label: string;
   sectionId: string;
 }
 
 @Component({
-  selector:    'app-top-nav',
+  selector: 'app-top-nav',
   templateUrl: './top-nav.component.html',
-  styleUrls:   ['./top-nav.component.css'],
+  styleUrls: ['./top-nav.component.css'],
 })
 export class TopNavComponent implements OnInit, OnDestroy {
 
-  isScrolled    = false;
-  isMobileOpen  = false;
+  isScrolled = false;
+  isMobileOpen = false;
 
   navLinks: NavLink[] = [
-    { label: 'About',       sectionId: 'about-brand'   },
-    { label: 'Founder',     sectionId: 'founder'       },
-    { label: 'Services',    sectionId: 'services'      },
-    { label: 'Process',     sectionId: 'process'       },
-    { label: 'Stories',     sectionId: 'testimonials'  },
-    { label: 'Contact',     sectionId: 'cta'           },
+    { label: 'About', sectionId: 'about-brand' },
+    { label: 'Founder', sectionId: 'founder' },
+    { label: 'Services', sectionId: 'services' },
+    { label: 'Process', sectionId: 'process' },
+    { label: 'Stories', sectionId: 'testimonials' },
+    { label: 'Contact', sectionId: 'cta' },
   ];
 
-  constructor(private scrollService: ScrollService) {}
+  constructor(private scrollService: ScrollService) { }
 
-  ngOnInit(): void {}
-  ngOnDestroy(): void {}
+  ngOnInit(): void { }
+  ngOnDestroy(): void { }
 
   @HostListener('window:scroll')
   onWindowScroll(): void {

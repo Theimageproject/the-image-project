@@ -24,16 +24,16 @@
         Begin Your Journey
       </span>
     </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      Scroll to explore
+    </div>
   </div>
 
   <div class="hero-right">
     <img src="/assets/images/brand_image.jpg" (error)="onImgError($event)" alt="Dr. Meghana">
   </div>
 
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    Scroll to explore
-  </div>
 
 </section>
 
@@ -113,7 +113,7 @@
       <span class="section-eyebrow">What We Offer</span>
       <h2 class="section-title">Our <em>Services</em></h2>
     </div>
-    <span class="section-count" appReveal [revealDelay]="1">04</span>
+    <span class="section-count" appReveal [revealDelay]="1">{{services.length || 0}}</span>
   </div>
 
   <div class="services-grid">
@@ -124,7 +124,7 @@
         {{ service.name }}
       </h3>
       <p class="service-desc">{{ service.desc }}</p>
-      <span class="service-link" (click)="selectedservice = service.name ;navigate('cta')">Enquire</span>
+      <span class="service-link" (click)="showMore(service)">Know More</span>
     </div>
   </div>
 

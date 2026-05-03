@@ -8,6 +8,7 @@ import { TopNavComponent }     from './components/top-nav/top-nav.component';
 import { ContentComponent }    from './components/content/content.component';
 import { FooterComponent }     from './components/footer/footer.component';
 import { RevealDirective }     from './directives/reveal.directive';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { RevealDirective }     from './directives/reveal.directive';
     BrowserModule,
     CommonModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

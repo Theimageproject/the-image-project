@@ -1,6 +1,8 @@
 // src/app/components/content/content.component.ts
 import { Component } from '@angular/core';
 import { ScrollService } from '../../services/scroll.service';
+import { DetailedviewComponent } from '../detailedview/detailedview.component';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 
 interface Service {
   num: string;
@@ -82,7 +84,6 @@ export class ContentComponent {
       num: '10',
       name: 'Bride & Groom Styling',
       desc: "Complete bridal styling with personalized guidance on colors, outfits, jewelry, and makeup tones that reflect your essence.We curate your wedding looks so they align with your personality, features, and cultural aesthetic.",
-      wide: true,
     }
   ];
 
@@ -140,7 +141,7 @@ export class ContentComponent {
     'Discovery Call Request — The Image Project'
   );
 
-  constructor(private scrollService: ScrollService) { }
+  constructor(private scrollService: ScrollService, private dialog: MatDialog) { }
 
   navigate(sectionId: string): void {
     this.scrollService.scrollToSection(sectionId);
@@ -176,5 +177,16 @@ Warm regards,
     );
     const mailTo = `mailto:dr.meghanamuralidharan@gmail.com?subject=${this.mailSubject}&body=${mailBody}`;
     window.location.href = mailTo;  // ← this is the key, NOT window.open()
+  }
+
+
+  showMore(service: Service): void {
+    const dialogREf = this.dialog.open(DetailedviewComponent, {
+      data: service, height: '400px', width: '600px', panelClass: 'custom-dialog-container'
+    });
+
+    dialogREf.afterClosed().subscribe(result => {
+
+    });
   }
 }

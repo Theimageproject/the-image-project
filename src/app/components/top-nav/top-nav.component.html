@@ -7,22 +7,24 @@
     The Image Project
   </span>
 
-  <!-- Desktop Navigation Links -->
-  <ul class="nav-links">
-    <li *ngFor="let link of navLinks">
-      <a (click)="navigate(link.sectionId)">{{ link.label }}</a>
-    </li>
-  </ul>
+  <div class="nav-list">
+    <!-- Desktop Navigation Links -->
+    <ul class="nav-links">
+      <li *ngFor="let link of navLinks">
+        <a (click)="navigate(link.sectionId)">{{ link.label }}</a>
+      </li>
+    </ul>
 
-  <!-- Desktop CTA -->
-  <span class="nav-cta" (click)="navigate('cta')">Begin</span>
+    <!-- Desktop CTA -->
+    <span class="nav-cta" (click)="navigate('cta')">Begin</span>
 
-  <!-- Hamburger (Mobile) -->
-  <button class="hamburger" (click)="toggleMobileMenu()" aria-label="Toggle menu">
-    <span [class.open]="isMobileOpen"></span>
-    <span [class.open]="isMobileOpen"></span>
-    <span [class.open]="isMobileOpen"></span>
-  </button>
+    <!-- Hamburger (Mobile) -->
+    <button class="hamburger" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+      <span [class.open]="isMobileOpen"></span>
+      <span [class.open]="isMobileOpen"></span>
+      <span [class.open]="isMobileOpen"></span>
+    </button>
+  </div>
 
 </nav>
 
