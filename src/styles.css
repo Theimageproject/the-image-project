@@ -221,7 +221,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #faf8f61c;
+  background: #efdbd469;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid transparent;
@@ -406,7 +406,7 @@ ul {
 
 .hero-title {
   font-family: var(--font-display);
-  font-size: clamp(3.2rem, 5.5vw, 6.2rem);
+  font-size: clamp(3.2rem, 5.2vw, 6.2rem);
   font-weight: 300;
   line-height: 1;
   color: var(--ink);
@@ -672,7 +672,7 @@ ul {
 }
 
 .founder-story {
-  font-size: 1.5vh;
+  font-size: 1.7vh;
   color: var(--ink-soft);
   line-height: 1.95;
   font-weight: 300;
@@ -687,7 +687,7 @@ ul {
 
 .founder-quote p {
   font-family: var(--font-display);
-  font-size: 1.8vh;
+  font-size: 2.5vh;
   font-weight: 300;
   font-style: italic;
   color: var(--ink);
@@ -706,6 +706,16 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
+}
+
+.services-corporate {
+  .corporateservice {
+    font-size: 2vh;
+    font-weight: 100;
+    font-family: monospace;
+    text-align: end;
+    font-style: italic;
+  }
 }
 
 .service-card {
@@ -1015,7 +1025,7 @@ ul {
 }
 
 .cta-text {
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   color: rgba(255, 255, 255, 0.55);
   line-height: 1.9;
   font-weight: 300;

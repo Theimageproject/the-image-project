@@ -37,17 +37,17 @@ export class ContentComponent {
   services: Service[] = [
     {
       num: '01',
-      name: 'Personal Color Analysis',
+      name: 'Korean Color Analysis',
       desc: 'Identify your ideal color palette through expert analysis ensuring every outfit, accessory, and makeup choice works in harmony with your natural features.',
     },
     {
       num: '02',
-      name: 'Body Shape & Silhouete Styling',
+      name: 'Body Shape Assessment',
       desc: 'Understand your body shape and learn how to dress in a way that fits, flatters, and highlights your best features.',
     },
     {
       num: '03',
-      name: 'Face Shape Analysis',
+      name: 'Face Shape Evaluation',
       desc: 'Find the right hairstyles, accessories, and eyewear that best complement your natural facial structure. This session ensures every detail near your face enhances your overall look effortlessly.',
     },
     {
@@ -57,13 +57,13 @@ export class ContentComponent {
     },
     {
       num: '05',
-      name: 'Signature Style Discovery',
-      desc: "A Personal Brand Elevation Service A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic",
+      name: 'Presence & Image Edit',
+      desc: "A Personal Brand Elevation Service A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic.",
     },
     {
       num: '06',
-      name: 'Presence & Image Edit',
-      desc: "A Personal Brand Elevation Service A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic.",
+      name: 'Signature Style Discovery',
+      desc: "A Personal Brand Elevation Service A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic",
     },
     {
       num: '07',
@@ -72,18 +72,13 @@ export class ContentComponent {
     },
     {
       num: '08',
-      name: 'Personal Shopping',
+      name: 'Personal Styling / Shopping for Events',
       desc: "Guided shopping experience tailored to your colors, fit, and lifestyle online or in-store. Whether it's a wardrobe update or a specific event, you’ll buy what works not just what’s trending",
     },
     {
       num: '09',
-      name: 'Personal Styling for an Event',
+      name: 'The Wedding Edit',
       desc: "One-time styling for weddings, shoots, or special events, Outfits, accessories, and finishing touches included.",
-    },
-    {
-      num: '10',
-      name: 'Bride & Groom Styling',
-      desc: "Complete bridal styling with personalized guidance on colors, outfits, jewelry, and makeup tones that reflect your essence.We curate your wedding looks so they align with your personality, features, and cultural aesthetic.",
     }
   ];
 
@@ -91,26 +86,26 @@ export class ContentComponent {
     {
       num: '01',
       label: 'Step 01',
-      name: 'Discovery Call',
-      desc: 'We begin with a conversation. No judgement, no agenda — just an open dialogue about your life, your goals, and what you\'re hoping to feel.',
+      name: 'The Clarity Call',
+      desc: 'We start with a conversation. Your life, your goals, and what you hope to change.',
     },
     {
       num: '02',
       label: 'Step 02',
-      name: 'Style Assessment',
-      desc: 'A detailed look at your lifestyle, body architecture, colour season, and the visual message you want to send to the world.',
+      name: 'The Plan',
+      desc: 'No generic advice. No guesswork. A precise, personalised approach built entirely around who you are and where you’re going.',
     },
     {
       num: '03',
       label: 'Step 03',
       name: 'Transformation',
-      desc: 'Whether it\'s a wardrobe edit, a shopping session, or a full intensive — we move with clarity, purpose, and complete attention to you.',
+      desc: "This is where the magic happens. Whether it's a color analysis edit, a shopping session, or a full intensive - we move with clarity, purpose, and complete attention to you.",
     },
     {
       num: '04',
       label: 'Step 04',
-      name: 'Integration',
-      desc: 'The work doesn\'t end when we\'re done. We ensure you feel confident, anchored, and equipped to carry this new version of yourself forward.',
+      name: 'The Blue Print',
+      desc: "We don’t leave you with a feeling. We leave you with a plan. Everything from your session documented, personalised, and yours to carry forward with complete clarity.",
     },
   ];
 
