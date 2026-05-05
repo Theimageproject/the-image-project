@@ -1,1 +1,38 @@
-<p>detailedview works!</p>
+<div class="previewdialog">
+    <div class="previewdialog-header">
+        <h2>{{ data.name }}</h2>
+        <span>
+            <mat-icon (click)="close()" aria-hidden="false" aria-label="Example home icon" fontIcon="close"></mat-icon>
+        </span>
+    </div>
+    <div class="previewdialog-content">
+        <div class="content">
+            <div class="contentscrollable">
+                @for (item of data.data; track $index) {
+                <div class="sectiondiv">
+                    @if (item.secname){
+                    <div class="sectionheading">
+                        {{item.secname}}
+                    </div>
+                    }
+                    @for(item of item.secbody; track $index) {
+                    <div class="subsection">
+                        <div class="sectoinheading">{{ item.heading }}</div>
+                        @if (item?.body) {
+                        <div class="sectoinbody">{{ item.body }}</div>
+                        }
+                        @else if(item?.items) {
+                        <ul class="unorderdlist">
+                            @for (listItem of item.items; track $index) {
+                            <li class="sectoinbody">{{ listItem }}</li>
+                            }
+                        </ul>
+                        }
+                    </div>
+                    }
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

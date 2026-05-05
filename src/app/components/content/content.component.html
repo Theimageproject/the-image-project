@@ -23,10 +23,6 @@
         Begin Your Journey
       </span>
     </div>
-    <div class="hero-scroll">
-      <div class="scroll-line"></div>
-      Scroll to explore
-    </div>
   </div>
 
   <div class="hero-right">
@@ -46,7 +42,7 @@
   <div class="about-content">
     <h2 class="about-intro" appReveal [revealDelay]="1">
       This is not about fashion.<br>
-      It is about <em>how you feel</em><br>
+      It's about <em>what you project</em><br>
       when you walk into a room.
     </h2>
     <p class="about-body" appReveal [revealDelay]="2">
@@ -66,8 +62,8 @@
       <img src="/assets/images/founder.jpg" (error)="onImgError($event)" alt="Dr. Meghana">
     </div>
     <div class="founder-tag">
-      <span class="founder-tag-name">Dr. Meghana</span>
-      <span class="founder-tag-title">Image Consultant &amp; Stylist</span>
+      <span class="founder-tag-name">Dr. Meghana Muralidharan</span>
+      <span class="founder-tag-title">Image Consultant &amp; Color Analyst</span>
     </div>
   </div>
 
@@ -75,21 +71,17 @@
     <span class="section-label">The Founder</span>
 
     <h2 class="founder-title" appReveal [revealDelay]="1">
-      Built from a deeply<br>
-      <em>personal</em> understanding<br>
-      of transformation.
+      Grounded in <em>Expertise</em><br>
+      Shaped by <em>Experience</em>.
     </h2>
 
     <p class="founder-story" appReveal [revealDelay]="2">
       Dr. Meghana is an Image Consultant and Personal Colour Analyst with a background in medicine and clinical
-      cosmetology.
-      She holds an advanced certification in Personal Colour Analysis from South Korea , the global benchmark in
-      contemporary
-      colour systems.
+      cosmetology. She holds an advanced certification in Personal Colour Analysis from South Korea , the global
+      benchmark in contemporary colour systems.<br>
       In her early years of clinical practice, she recognised that transformation isn’t just about how you look, but how
-      you
-      feel about yourself. Having navigated her own relationship with image and self perception, she understood that
-      confidence isn’t created on the surface; it is built internally and reflected outward.
+      you feel about yourself. Having navigated her own relationship with image and self perception, she understood that
+      confidence isn’t created on the surface; it is built internally and reflected outward.<br>
       This led to the creation of <i>The Image Project</i>.
       Here, she works with individuals who want to take a more thoughtful and strategic approach to how they present
       themselves.
@@ -119,23 +111,26 @@
       <span class="section-eyebrow">What We Offer</span>
       <h2 class="section-title">Our <em>Services</em></h2>
     </div>
-    <span class="section-count" appReveal [revealDelay]="1">{{services.length || 0}}</span>
+    <!-- <span class="section-count" appReveal [revealDelay]="1">{{services.length || 0}}</span> -->
   </div>
 
   <div class="services-grid">
     <div *ngFor="let service of services; let i = index" class="service-card" [class.service-card--wide]="service.wide"
       appReveal [revealDelay]="1">
       <span class="service-num">{{ service.num }}</span>
+      <span class="service-img">
+        <img [src]="service.image" (error)="onImgError($event)" [alt]="service.name">
+      </span>
       <h3 class="service-name" [class.service-name--lg]="service.wide">
         {{ service.name }}
       </h3>
-      <p class="service-desc">{{ service.desc }}</p>
+      <!-- <p class="service-desc">{{ service.desc }}</p> -->
       <span class="service-link" (click)="showMore(service)">Know More</span>
     </div>
   </div>
   <div class="services-corporate">
     <h1 class="corporateservice">
-      For brands and corporates, curated group experiences are available on request.
+      <i>For brands and corporates, curated group experiences are available on request.</i>
     </h1>
   </div>
 
@@ -154,9 +149,8 @@
       </h2>
     </div>
     <p class="process-body" appReveal [revealDelay]="2">
-      Every engagement begins with listening. We take the time to understand
-      who you are and where you're going — before we ever talk about clothing.
-      The result is a deeply personal, wholly transformative experience.
+      We start with intention - your identity, your lifestyle, and your direction, so every decision that follows is
+      precise.
     </p>
   </div>
 
@@ -216,7 +210,7 @@
       forward.
     </p>
     <a (click)="openMail()" target="_top" class="btn-light">
-      Below book clarity call
+      Book a clarity call
     </a>
     <!-- <p class="cta-sub">
       Spaces are limited — we work with a small, curated number of clients at a time.
