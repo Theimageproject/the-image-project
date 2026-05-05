@@ -15,7 +15,7 @@ export const steps = [
         num: '03',
         label: 'Step 03',
         name: 'Transformation',
-        desc: "This is where the magic happens. Whether it's a color analysis edit, a shopping session, or a full intensive - we move with clarity, purpose, and complete attention to you.",
+        desc: "This is where the magic happens. Whether it's a color analysis, a shopping session, or a full intensive - we move with clarity, purpose, and complete attention to you.",
     },
     {
         num: '04',

@@ -201,6 +201,7 @@ ul {
   transition: background 0.35s, color 0.35s, transform 0.3s;
   cursor: pointer;
   border: none;
+  max-width: 30em;
 }
 
 .btn-light:hover {
@@ -394,10 +395,10 @@ ul {
 }
 
 .hero-eyebrow {
-  font-size: 1.6vh;
-  letter-spacing: 0.35em;
+  font-size: 2.5vh;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--ink-soft);
   font-weight: 400;
   margin-bottom: 10px;
   opacity: 0;
@@ -424,7 +425,7 @@ ul {
 }
 
 .hero-sub {
-  font-size: 2vh;
+  font-size: 2.5vh;
   color: var(--ink-soft);
   line-height: 1.85;
   margin-bottom: 25px;
@@ -673,7 +674,7 @@ ul {
 }
 
 .founder-story {
-  font-size: 1.7vh;
+  font-size: 2.1vh;
   color: var(--ink-soft);
   line-height: 1.95;
   font-weight: 300;
@@ -1437,7 +1438,6 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 1.8vh;
-            letter-spacing: 0.18em;
             text-transform: uppercase;
             color: #9a847d;
           }
@@ -1450,7 +1450,6 @@ body {
             font-size: 2vh;
             font-weight: 300;
             font-family: sans-serif;
-            font-style: italic;
             color: #414141;
           }
         }

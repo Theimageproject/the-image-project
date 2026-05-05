@@ -280,15 +280,15 @@ export const services = [
                 secbody: [
                     {
                         heading: 'For the Bride: A Look That Feels Like You',
-                        body: 'Amidst opinions, expectations, and endless choices, it’s easy to feel overwhelmed. We bring clarity and direction—so your final look feels effortless, aligned, and truly yours.'
+                        body: 'Amidst opinions, expectations, and endless choices, it’s easy to feel overwhelmed. We bring clarity and direction, so your final look feels effortless, aligned, and truly yours.'
                     },
                     {
                         heading: 'For the Groom: Effortless, Intentional, You',
-                        body: 'When styling feels unclear or rushed, it often becomes a last-minute decision. We help you define a sharp, confident presence—without overthinking or excess.'
+                        body: 'When styling feels unclear or rushed, it often becomes a last-minute decision. We help you define a sharp, confident presence, without overthinking or excess.'
                     },
                     {
                         heading: 'The Style Blueprint',
-                        body: 'A complete, no-guesswork understanding of what truly works for you. Built on colour, body shape, and facial structure—for your wedding and beyond.'
+                        body: 'A complete, no-guesswork understanding of what truly works for you. Built on colour, body shape, and facial structure, for your wedding and beyond.'
                     },
                     {
                         heading: 'Bridal Colour Collective',
