@@ -1315,7 +1315,8 @@ ul {
   }
 
   .custom-dialog-container {
-    width: 85vw !important;
+    width: 95dvw !important;
+    max-width: 95dvw !important;
   }
 
   .footer-links {
@@ -1445,9 +1446,14 @@ body {
           .sectoinheading {
             font-style: normal;
             font-weight: 400;
-            font-size: 1.8vh;
+            font-size: 1.9vh;
             text-transform: uppercase;
             color: #9a847d;
+          }
+
+          .sectionheading {
+            font-size: 2vh;
+            font-weight: 500;
           }
 
           .unorderdlist {
@@ -1455,7 +1461,7 @@ body {
           }
 
           .sectoinbody {
-            font-size: 2vh;
+            font-size: 1.85vh;
             font-weight: 300;
             font-family: sans-serif;
             color: #414141;

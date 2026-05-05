@@ -14,7 +14,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: 'When colour is right, everything aligns — your skin appears clearer, your features more defined, and your overall presence more refined. This process removes uncertainty and replaces it with a clear visual direction, so every colour choice feels intentional and elevated.'
+                        body: 'When colour is right, everything aligns your skin appears clearer, your features more defined, and your overall presence more refined. This process removes uncertainty and replaces it with a clear visual direction, so every colour choice feels intentional and elevated.'
                     },
                     {
                         heading: 'The Outcome',
@@ -109,7 +109,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: 'How you present yourself at work directly shapes how you are perceived. This service ensures your appearance reflects authority, clarity, and intent — so you show up aligned with your position, your ambition, and where you are headed.'
+                        body: 'How you present yourself at work directly shapes how you are perceived. This service ensures your appearance reflects authority, clarity, and intent so you show up aligned with your position, your ambition, and where you are headed.'
                     },
                     {
                         heading: 'The Outcome',
@@ -140,7 +140,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: 'Your image communicates before you do. When aligned correctly, it creates clarity, recognition, and authority — ensuring that how you are seen reflects how you want to be known.'
+                        body: 'Your image communicates before you do. When aligned correctly, it creates clarity, recognition, and authority ensuring that how you are seen reflects how you want to be known.'
                     },
                     {
                         heading: 'The Outcome',
@@ -171,7 +171,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: 'Instead of dressing based on trends or uncertainty, you begin to dress with clarity. Your style becomes recognisable, effortless, and aligned with who you are — removing inconsistency and second-guessing.'
+                        body: 'Instead of dressing based on trends or uncertainty, you begin to dress with clarity. Your style becomes recognisable, effortless, and aligned with who you are removing inconsistency and second-guessing.'
                     },
                     {
                         heading: 'The Outcome',
@@ -190,7 +190,7 @@ export const services = [
     {
         num: '07',
         name: 'Style Reset',
-        desc: "A full image refresh for life transitions — career changes, body changes, or simply the desire to reinvent your look. This service realigns your wardrobe and style to match the person you are today.",
+        desc: "A full image refresh for life transitions career changes, body changes, or simply the desire to reinvent your look. This service realigns your wardrobe and style to match the person you are today.",
         image: '/assets/images/7.png',
         data: [
             {
@@ -202,7 +202,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: "Your style begins to represent the version of you you're stepping into — not the one you've outgrown. It creates alignment between your appearance and your ambitions, allowing you to show up with greater clarity, confidence, and intention."
+                        body: "Your style begins to represent the version of you you're stepping into not the one you've outgrown. It creates alignment between your appearance and your ambitions, allowing you to show up with greater clarity, confidence, and intention."
                     },
                     {
                         heading: 'The Outcome',
@@ -220,7 +220,7 @@ export const services = [
     {
         num: '08',
         name: 'Personal Styling / Shopping for Events',
-        desc: "Guided shopping experience tailored to your colors, fit, and lifestyle — online or in-store. Whether it's a wardrobe update or a specific event, you'll buy what works not just what's trending.",
+        desc: "Guided shopping experience tailored to your colors, fit, and lifestyle online or in-store. Whether it's a wardrobe update or a specific event, you'll buy what works not just what's trending.",
         image: '/assets/images/8.png',
         data: [
             {
@@ -232,7 +232,7 @@ export const services = [
                     },
                     {
                         heading: 'The Impact',
-                        body: "When every element of your look is considered, you don't just fit the event — you stand out with ease. This service ensures your outfit feels aligned, intentional, and fully reflective of you."
+                        body: "When every element of your look is considered, you don't just fit the event you stand out with ease. This service ensures your outfit feels aligned, intentional, and fully reflective of you."
                     },
                     {
                         heading: 'The Outcome',
