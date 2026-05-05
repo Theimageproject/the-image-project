@@ -244,6 +244,14 @@ ul {
   text-transform: uppercase;
   color: var(--ink);
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+
+  img {
+    height: 1.5em
+  }
 }
 
 .nav-links {
@@ -395,7 +403,7 @@ ul {
 }
 
 .hero-eyebrow {
-  font-size: 2.5vh;
+  font-size: 2.2vh;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -627,7 +635,7 @@ ul {
   position: absolute;
   bottom: -20px;
   right: -20px;
-  background: var(--cream);
+  background: var(--warm-white);
   padding: 24px 32px;
   border: 1px solid var(--border);
 }
@@ -1376,7 +1384,7 @@ body {
 
 .custom-dialog-container {
   position: fixed !important;
-  top: 20% !important;
+  top: 15% !important;
   width: 55vw;
   height: 70vh !important;
   display: flex;

@@ -66,7 +66,7 @@ export class ContentComponent {
     const mailBody = encodeURIComponent(
       `Hello,
 
-I came across The Image Project and would love to explore the possibility of working together.
+I came across The Image Project and would love to explore your services further.
 
 I’d like to schedule a Clarity Call and have shared my details below:
 
