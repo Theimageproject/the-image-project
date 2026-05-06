@@ -48,7 +48,7 @@ export class ContentComponent {
   // content.component.ts
 
   readonly mailSubject = encodeURIComponent(
-    'Discovery Call Request — The Image Project'
+    'Clarity Call Request — The Image Project'
   );
 
   constructor(private scrollService: ScrollService, private dialog: MatDialog) { }
