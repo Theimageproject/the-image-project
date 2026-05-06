@@ -3,7 +3,7 @@ export const services = [
         num: '01',
         name: 'Korean Color Analysis',
         desc: 'Identify your ideal color palette through expert analysis ensuring every outfit, accessory, and makeup choice works in harmony with your natural features.',
-        image: '/assets/images/1.png',
+        image: '/assets/images/1.webp',
         data: [
             {
                 secname: '',
@@ -35,7 +35,7 @@ export const services = [
         num: '02',
         name: 'Body Shape Assessment',
         desc: 'Understand your body shape and learn how to dress in a way that fits, flatters, and highlights your best features.',
-        image: '/assets/images/2.png',
+        image: '/assets/images/2.webp',
         data: [
             {
                 secname: '',
@@ -66,7 +66,7 @@ export const services = [
         num: '03',
         name: 'Face Shape Evaluation',
         desc: 'Find the right hairstyles, accessories, and eyewear that best complement your natural facial structure. This session ensures every detail near your face enhances your overall look effortlessly.',
-        image: '/assets/images/3.png',
+        image: '/assets/images/3.webp',
         data: [
             {
                 secname: '',
@@ -98,7 +98,7 @@ export const services = [
         num: '04',
         name: 'Power Dressing',
         desc: "Build a wardrobe that communicates confidence and credibility perfect for professional and public-facing roles. From meetings to media, you'll know exactly what to wear to leave the right impression.",
-        image: '/assets/images/4.png',
+        image: '/assets/images/4.webp',
         data: [
             {
                 secname: '',
@@ -129,7 +129,7 @@ export const services = [
         num: '05',
         name: 'Presence & Image Edit',
         desc: "A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic.",
-        image: '/assets/images/5.png',
+        image: '/assets/images/5.webp',
         data: [
             {
                 secname: '',
@@ -160,7 +160,7 @@ export const services = [
         num: '06',
         name: 'Signature Style Discovery',
         desc: "A strategic refinement of your external image so it reflects confidence, clarity, and leadership—without feeling forced or inauthentic.",
-        image: '/assets/images/6.png',
+        image: '/assets/images/6.webp',
         data: [
             {
                 secname: '',
@@ -191,7 +191,7 @@ export const services = [
         num: '07',
         name: 'Style Reset',
         desc: "A full image refresh for life transitions career changes, body changes, or simply the desire to reinvent your look. This service realigns your wardrobe and style to match the person you are today.",
-        image: '/assets/images/7.png',
+        image: '/assets/images/7.webp',
         data: [
             {
                 secname: '',
@@ -221,7 +221,7 @@ export const services = [
         num: '08',
         name: 'Personal Styling / Shopping for Events',
         desc: "Guided shopping experience tailored to your colors, fit, and lifestyle online or in-store. Whether it's a wardrobe update or a specific event, you'll buy what works not just what's trending.",
-        image: '/assets/images/8.png',
+        image: '/assets/images/8.webp',
         data: [
             {
                 secname: 'PERSONAL STYLING FOR AN EVENT',
@@ -273,7 +273,7 @@ export const services = [
         num: '09',
         name: 'The Wedding Edit',
         desc: "One-time styling for weddings, shoots, or special events. Outfits, accessories, and finishing touches included.",
-        image: '/assets/images/9.png',
+        image: '/assets/images/9.webp',
         data: [
             {
                 secname: '',
